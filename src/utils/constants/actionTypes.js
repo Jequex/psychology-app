@@ -1,0 +1,5 @@
+export const GET_QUESTIONS = "GET_QUESTIONS"
+export const SUBMIT_ANSWER = "SUBMIT_ANSWER"
+export const AUTHENTICATED = "AUTHENTICATED"
+export const NEXT_CLICKED = "NEXT_CLICKED"
+export const LOADING = "LOADING"
