@@ -9,6 +9,7 @@ import Layout from "./components/Layout"
 import Home from "./pages/Home"
 import Test from "./pages/Test"
 import Success from "./pages/Success"
+import Error from "./pages/Error"
 
 function App () {
   return (
@@ -20,6 +21,7 @@ function App () {
               <Route path="/" element={<Home/>} />
               <Route path="test" element={<Test/>} />
               <Route path="success" element={<Success/>} />
+              <Route path="*" element={<Error/>} />
             </Routes>
           </Router>
         </Layout>

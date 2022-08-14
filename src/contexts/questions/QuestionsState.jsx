@@ -30,7 +30,7 @@ const QuestionsState = ({ children }) => {
     dispatch({ type: GET_QUESTIONS, payload: data.data })
   }
   const submitAnswer = async () => {
-    // make network call to get questions
+    // make network call to submit answers
     const data = await axios.post(urls.SUBMIT_ANSWERS_URL, { answers: state.answers })
     dispatch({ type: SUBMIT_ANSWER, payload: data.data })
   }
